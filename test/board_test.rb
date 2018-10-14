@@ -16,5 +16,9 @@ class BoardTest < Minitest::Test
     assert_equal 16, @board.cells.length
   end
 
+  def test_all_cells_are_empty_at_start
+    assert @board.cells.all? { |cell| cell.status == 'empty' }
+  end
+
 
 end
