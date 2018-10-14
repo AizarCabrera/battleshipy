@@ -19,4 +19,8 @@ class CellTest < Minitest::Test
     assert_equal '1', @cell.number
   end
 
+  def test_it_can_start_empty_as_status
+    assert_equal 'empty', @cell.status
+  end
+
 end
