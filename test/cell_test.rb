@@ -4,7 +4,7 @@ require './lib/cell'
 class CellTest < Minitest::Test
 
   def setup
-    @cell   = Cell.new('A')
+    @cell   = Cell.new('A','1')
   end
 
   def test_it_exists
@@ -13,6 +13,10 @@ class CellTest < Minitest::Test
 
   def test_it_has_a_letter
     assert_equal 'A', @cell.letter
+  end
+
+  def test_it_has_a_number
+    assert_equal '1', @cell.number
   end
 
 end

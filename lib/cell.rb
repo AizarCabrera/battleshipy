@@ -1,8 +1,11 @@
 class Cell
-attr_reader :letter
+attr_reader :letter,
+            :number
 
-def initialize(letter)
+def initialize(letter, number)
   @letter = letter
+  @number = number
+
 end
 
 end
