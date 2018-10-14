@@ -3,7 +3,7 @@ require './test/test_helper'
 class CellTest < Minitest::Test
 
   def setup
-    @cell   = Cell.new('A','1')
+    @cell = Cell.new('A','1')
   end
 
   def test_it_exists

@@ -9,7 +9,7 @@ class Game
 
   def initialize
     @player_1 = Player.new('computer') #(add ships on initialize)
-    @player_2    = Player.new('human')#(add ships on initialize)
+    @player_2 = Player.new('human')#(add ships on initialize)
     @board    = Board.new
     # @board    = create_game_board
   end
