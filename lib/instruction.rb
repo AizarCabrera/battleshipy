@@ -1,4 +1,4 @@
-module Instruction
+module Instructions
 
   def self.rules
     puts 'Ships cannot wrap around the board'

@@ -11,7 +11,7 @@ def start_game
   if input == 'p' || input == 'play'
     Game.new
   elsif input == 'i' || input == 'instructions'
-    Instruction.rules
+    Instructions.rules
   elsif input == 'q' || input == 'quit'
     'OK,bye'
   else

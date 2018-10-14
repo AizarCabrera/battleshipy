@@ -4,7 +4,7 @@ require './lib/cell'
 
 class BoardTest < Minitest::Test
   def setup
-    @board = Board.new
+    @board  = Board.new
   end
 
   def test_it_exists
@@ -19,6 +19,8 @@ class BoardTest < Minitest::Test
   def test_all_cells_are_empty_at_start
     assert @board.cells.all? { |cell| cell.empty? }
   end
+
+  
 
 
 end
