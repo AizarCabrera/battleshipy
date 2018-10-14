@@ -23,4 +23,8 @@ class CellTest < Minitest::Test
     assert_equal 'empty', @cell.status
   end
 
+  def test_it_can_check_if_empty
+    assert @cell.empty?
+  end
+
 end

@@ -10,4 +10,8 @@ class Cell
     @status = status
   end
 
+  def empty?
+    status == 'empty'
+  end
+
 end
