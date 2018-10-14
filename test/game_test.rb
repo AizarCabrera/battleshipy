@@ -1,7 +1,5 @@
 require './test/test_helper'
-require './lib/game'
-require './lib/board'
-require './lib/player'
+
 
 class GameTest < Minitest::Test
   def setup

@@ -1,5 +1,4 @@
 require './test/test_helper'
-require './lib/cell'
 
 class CellTest < Minitest::Test
 

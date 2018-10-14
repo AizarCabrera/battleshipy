@@ -1,6 +1,4 @@
 require './test/test_helper'
-require './lib/board'
-require './lib/cell'
 
 class BoardTest < Minitest::Test
   def setup
@@ -20,7 +18,7 @@ class BoardTest < Minitest::Test
     assert @board.cells.all? { |cell| cell.empty? }
   end
 
-  
+
 
 
 end
