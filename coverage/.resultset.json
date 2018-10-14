@@ -3,14 +3,14 @@
     "coverage": {
       "/Users/aizarcabrera/turing/1module/2nd_week/projects/battleshipy/lib/player.rb": [
         1,
-        null,
-        null,
         1,
         null,
+        1,
+        4,
         null,
         null
       ]
     },
-    "timestamp": 1539559522
+    "timestamp": 1539559625
   }
 }
