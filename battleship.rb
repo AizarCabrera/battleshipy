@@ -1,3 +1,6 @@
+require './lib/instruction'
+require './lib/game'
+
 def start_game
   puts 'Welcome to BATTLESHIP'
   puts 'Would you like to (p)lay, read the (i)nstructions, or (q)uit?'
@@ -15,4 +18,8 @@ def start_game
     puts 'try again'
     start_game
   end
+
+
 end
+
+start_game
