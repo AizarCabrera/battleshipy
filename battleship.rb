@@ -13,7 +13,7 @@ def start_game
   elsif input == 'i' || input == 'instructions'
     Instruction.rules
   elsif input == 'q' || input == 'quit'
-    'bye'
+    'OK,bye'
   else
     puts 'try again'
     start_game
