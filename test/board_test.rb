@@ -9,4 +9,9 @@ class BoardTest < Minitest::Test
   def test_it_exists
     assert_instance_of Board, @board
   end
+
+  def test_it_has_one_cell
+    assert_instance_of Cell, @board.cell
+  end
+
 end

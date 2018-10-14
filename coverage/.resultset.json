@@ -1,24 +1,11 @@
 {
   "Unit Tests": {
     "coverage": {
-      "/Users/aizarcabrera/turing/1module/2nd_week/projects/battleshipy/lib/game.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/aizarcabrera/turing/1module/2nd_week/projects/battleshipy/lib/board.rb": [
+      "/Users/aizarcabrera/turing/1module/2nd_week/projects/battleshipy/lib/cell.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1539545136
+    "timestamp": 1539545431
   }
 }
